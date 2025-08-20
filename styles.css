@@ -1,0 +1,174 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, "Times New Roman", sans-serif;
+}
+
+header,
+.hero,
+footer {
+  background-color: #1f2937;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 16em;
+}
+
+.hero {
+  height: 400px;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-links {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.header-links li a {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.hero-content h1 {
+  color: #f9faf8;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.hero-content p {
+  color: #e5e7eb;
+}
+
+.hero-content button,
+.cta button {
+  background-color: #3882f6;
+  border-style: none;
+  color: #f9faf8;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px 24px;
+  border-radius: 6px;
+  align-self: baseline;
+}
+
+.hero-img-placeholder {
+  background-color: rgb(131, 131, 131);
+  color: #e5e7eb;
+  height: 14em;
+  text-align: center;
+  align-content: center;
+  flex: 1;
+}
+
+.random-info {
+  padding: 100px 0;
+}
+
+.random-info h2 {
+  text-align: center;
+  padding: 30px 0;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.random-info-content-container {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.random-info .illustration {
+  height: 180px;
+  width: 180px;
+  border: 4px solid #3882f6;
+  border-radius: 16px;
+  margin-bottom: 10px;
+}
+
+.random-info-content p {
+  width: 180px;
+  font-size: 18px;
+  color: gray;
+  text-align: center;
+}
+
+.inspiring-quote-container {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+  padding: 120px;
+}
+
+.quote-credit {
+  font-weight: bold;
+  font-size: 26px;
+  text-align: right;
+  font-style: normal;
+}
+
+.cta-container {
+  height: 400px;
+  align-content: center;
+}
+
+.cta {
+  background-color: #3882f6;
+  height: 40%;
+  width: 95%;
+  margin: auto;
+  border-radius: 6px;
+  padding: 40px 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cta-text {
+  color: #e5e7eb;
+  font-size: 20px;
+}
+
+.cta-text > p:first-child {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.cta button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border: 2px solid #e5e7eb;
+  align-self: center;
+}
+
+footer {
+  padding: 40px;
+  justify-content: center;
+  color: #e5e7eb;
+  font-size: 18px;
+}
